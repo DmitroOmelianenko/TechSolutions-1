@@ -1,0 +1,53 @@
+body {
+  background: rgb(45, 45, 90);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero {
+  background-color: rgb(72, 72, 194);
+  outline: solid grey 2px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.hero__title {
+  text-align: center;
+  color: white;
+}
+
+.hero__list {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+
+    @media screen and (min-width: 1244px) {
+        flex-direction: row;
+    }
+}
+
+.hero__item {
+    list-style: none;
+    outline: solid rgb(197, 195, 195);
+    border-radius: 20px;
+    transition: ease 1s;
+}
+
+.hero__item:hover {
+    transition: ease 1s;
+      box-shadow: aqua 20px 17px 32px 0px;
+}
+
+.hero__text {
+    text-align: center;
+    color: aqua;
+}
+
+.hero__description {
+    text-align: center;
+    color: white;
+}
